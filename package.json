@@ -1,0 +1,23 @@
+{
+  "name": "employee-tracker",
+  "version": "1.0.0",
+  "description": "manage employee database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaguimond/module12-challenge-employee-tracker.git"
+  },
+  "author": "aaguimond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaguimond/module12-challenge-employee-tracker/issues"
+  },
+  "homepage": "https://github.com/aaguimond/module12-challenge-employee-tracker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.5"
+  }
+}
