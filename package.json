@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/aaguimond/module12-challenge-employee-tracker#readme",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "inquirer": "^8.2.4",
     "pg": "^8.11.5"
   }
