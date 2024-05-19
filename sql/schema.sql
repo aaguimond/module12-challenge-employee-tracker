@@ -3,5 +3,5 @@ CREATE DATABASE employee_management;
 
 \c employee_management;
 
-\i tables.sql;
-\i seeds.sql;
+\i sql/tables.sql;
+\i sql/seeds.sql;
