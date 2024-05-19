@@ -36,10 +36,13 @@
 
 ## Media for Application
 
-![placeholder](placeholder)
+Initializing the application
+![a screenshot of the inputs necessary to initialize the application](./assets/screenshots/EmployeeTrackerInitializing.png)
+
+The application in use
+![a screenshot of the application's main menu](./assets/screenshots/EmployeeTrackerInUse.png)
 
 [placeholder](placeholder)
-
 
 ## Purpose
 

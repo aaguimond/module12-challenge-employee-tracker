@@ -44,7 +44,7 @@ const init = async () => {
                     name: role.title, value: role.id
                 }));
                 const { employeeId, roleId } = await updateEmployeeRolePrompt(employeeChoices, roleChoices);
-                await updateEmployeeRole(employeeId, roleId);
+                await updateEmployeeRole(roleId, employeeId);
                 console.log("Employee's role updated successfully.");
                 break;
 
