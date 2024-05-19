@@ -29,7 +29,8 @@ const init = async () => {
                     employeeDetails.firstName,
                     employeeDetails.lastName,
                     employeeDetails.roleId,
-                    employeeDetails.managerId);
+                    employeeDetails.managerId === '' ? null : employeeDetails.managerId
+                );
                 console.log('Employee added successfully.');
                 break;
 

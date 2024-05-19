@@ -37,12 +37,15 @@ const addEmployeePrompt = () => {
         {
             type: 'input',
             name: 'roleId',
-            message: "Please enter the employee's rold ID."
+            message: "Please enter the employee's role ID.",
+            validate: input => !isNaN(input) || 'Role ID must be a number.'
         },
         {
             type: 'input',
             name: 'managerId',
             message: "Please enter the employee's manager ID if applicable.",
+            default: null,
+            validate: input => input === '' || !isNaN(input) || 'Manager ID must be a number.'
         }
     ]);
 };
@@ -75,6 +78,7 @@ const addRolePrompt = () => {
             type: 'input',
             name: 'roleDepartmentId',
             message: 'Please enter the ID of the department the role is in.',
+            validate: input => !isNaN(input) || 'Department ID must be a number.'
         },
         {
             type: 'input',

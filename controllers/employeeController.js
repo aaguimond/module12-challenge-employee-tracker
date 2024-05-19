@@ -12,6 +12,8 @@ const getEmployees = async () => {
 
 const addEmployee = async (firstName, lastName, roleId, managerId) => {
     try {
+        managerId = managerId === '' ? null : managerId;
+        
         await db.query('INSERT INTO employee (first_name, last_name, role_id, manager_id) VALUES ($1, $2, $3, $4)',
         [firstName, lastName, roleId, managerId]);
     } catch (err) {
